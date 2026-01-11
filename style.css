@@ -1,0 +1,105 @@
+/* --- Purana CSS same rakhna, ye naya add kar --- */
+
+body {
+    background: #f0f2f5;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; /* Thoda upar se jagah */
+}
+
+.tool-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* --- Fake Upload Box --- */
+.upload-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    background: #fafafa;
+}
+
+.upload-area:hover {
+    border-color: #fcb045;
+    background: #fffdf5;
+}
+
+.upload-area i {
+    font-size: 40px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+/* --- Caption List Styling --- */
+.caption-card {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between; /* Text left, button right */
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.caption-text {
+    font-size: 14px;
+    color: #333;
+    width: 80%; /* Text ko jagah zyada do */
+}
+
+.copy-small-btn {
+    background: #eee;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+.copy-small-btn:hover {
+    background: #444;
+    color: white;
+}
+
+/* --- Refresh Button --- */
+.refresh-btn {
+    background: transparent;
+    border: 2px solid #fcb045;
+    color: #fcb045;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.refresh-btn:hover {
+    background: #fcb045;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+}
+.generate-btn {
+    width: 100%; padding: 12px; background: #333; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px;
+}

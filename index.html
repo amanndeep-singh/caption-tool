@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Caption Gen Pro 🤖</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="tool-card">
+        <h1>✨ AI Caption Generator</h1>
+        <p>Upload photo & describe it to get viral captions!</p>
+
+        <div class="upload-area" onclick="document.getElementById('fakeImageInput').click()">
+            <input type="file" id="fakeImageInput" style="display: none;" onchange="imageUploaded()">
+            <i class="fa-solid fa-cloud-arrow-up" id="uploadIcon"></i>
+            <p id="uploadText">Click to Upload Photo</p>
+        </div>
+
+        <div class="input-group">
+            <label>Describe your photo (Required):</label>
+            <textarea id="userInput" rows="2" placeholder="Ex: Me and friends chilling at Goa beach..."></textarea>
+        </div>
+
+        <button onclick="generateCaptions()" class="generate-btn">
+            🚀 Generate Captions
+        </button>
+
+        <div id="loadingBox" style="display: none; margin-top: 20px;">
+            <i class="fa-solid fa-circle-notch fa-spin" style="color: #fcb045; font-size: 30px;"></i>
+            <p>Scanning Image & Analyzing Text... 🤖</p>
+        </div>
+
+        <div id="resultArea" style="display: none;">
+            <h3>✨ Best Matches:</h3>
+            <div id="captionsList">
+                </div>
+
+            <button onclick="generateCaptions()" class="refresh-btn">
+                <i class="fa-solid fa-rotate-right"></i> Load More Captions
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
