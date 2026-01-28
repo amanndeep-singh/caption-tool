@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>https://captiongenerator.online/</loc>
+      <lastmod>2026-01-29</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.00</priority>
+   </url>
+
+   <url>
+      <loc>https://captiongenerator.online/tiktok/</loc>
+      <lastmod>2026-01-29</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.90</priority>
+   </url>
+
+   <url>
+      <loc>https://captiongenerator.online/linkedin/</loc>
+      <lastmod>2026-01-29</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.90</priority>
+   </url>
+
+   <url>
+      <loc>https://captiongenerator.online/youtube/</loc>
+      <lastmod>2026-01-29</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.90</priority>
+   </url>
+
+   <url>
+      <loc>https://captiongenerator.online/contact/</loc>
+      <lastmod>2026-01-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.60</priority>
+   </url>
+
+   <url>
+      <loc>https://captiongenerator.online/privacy/</loc>
+      <lastmod>2026-01-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.50</priority>
+   </url>
+
+   <url>
+      <loc>https://captiongenerator.online/terms/</loc>
+      <lastmod>2026-01-29</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.50</priority>
+   </url>
+
+</urlset>
