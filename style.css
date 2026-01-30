@@ -218,3 +218,31 @@ footer div {
         padding-bottom: 20px; /* Thodi jagah neeche */
     }
 }
+/* Mobile Sidebar Fix - Overlay Mode */
+@media (max-width: 768px) {
+    .app-container {
+        display: block !important; /* Flexbox hatao taaki dhakka na lage */
+    }
+
+    .sidebar {
+        position: fixed; /* Hawa mein float karega */
+        top: 0;
+        left: -100%; /* Pehle chipa rahega */
+        width: 280px;
+        height: 100vh;
+        z-index: 9999; /* Sabse upar dikhega */
+        transition: 0.3s ease-in-out;
+        box-shadow: 5px 0 15px rgba(0,0,0,0.5); /* Thoda shadow taaki alag dikhe */
+    }
+
+    .sidebar.active {
+        left: 0; /* Active hone pe bahar aayega */
+    }
+
+    .main-content {
+        width: 100% !important; /* Content pura faila rahega */
+        margin-left: 0 !important;
+        padding-top: 20px; /* Header ke liye jagah */
+    }
+}
+
